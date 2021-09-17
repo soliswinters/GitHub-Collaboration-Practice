@@ -1,7 +1,7 @@
 git clone https://github.com/soliswinters/GitHub-Collaboration-Practice.git
+cd GitHub-Collaboration-Practice.git
 git checkout -b Nadia-branch
-cd GitHub
--Collaboration-Practice.git
+git branch
 ls
 vim Names
 vim Commands_step-3-4-d.txt
