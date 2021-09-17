@@ -1,0 +1,13 @@
+git clone https://github.com/soliswinters/GitHub-Collaboration-Practice.git
+git checkout -b Nadia-branch
+cd GitHub
+-Collaboration-Practice.git
+ls
+vim Names
+vim Commands_step-3-4-d.txt
+esc :wq
+git status
+git add "Commands_step-3-4-d.txt"
+git add "Names"
+git commit -m "I added my research interests and department to Names, and I created a new text file to contain all the commands I executed to fulfill Part 3 'Collaborate with Teammates,' step 4, of Project 1."
+git push --set-upstream origin Nadia-branch
