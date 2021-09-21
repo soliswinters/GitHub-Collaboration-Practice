@@ -1,0 +1,30 @@
+This is the file that will have all the commands I have run so far:
+
+Clone repository: 
+
+git clone https://github.com/evalencialopez/Socio273L.git
+
+We create a folder called project 1:
+pwd
+cd Desktop/
+cd Socio273L/
+
+mkdir "Project 1"
+
+Create text:
+
+vim "command_text.txt"
+
+Then to commit this piece of text:
+
+(escape):wq
+git add "command_text.txt"
+
+git commit -m "This is an updated version of the command line"
+
+git push 
+
+git pull
+
+
+
