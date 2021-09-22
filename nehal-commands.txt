@@ -1,0 +1,18 @@
+cd Desktop
+cd Fall\ 2021/
+cd Comp\ Social \Sci\ -\ 273L/
+git config --global user.name "neldeeb7"
+git config --global user.email "neldeeb@berkeley.edu"
+git config --global credential.helper cache
+git clone https://github.com/soliswinters/GitHub-Collaboration-Practice.git
+cd GitHub-Collaboration-Practice
+git checkout-b nehal_branch
+vim Names
+git add Names
+git commit -m "Nehal added degree program and keywords"
+git push 
+vim nehal-commands.txt
+git add nehal-commands.txt
+git commit -m "Nehal added a text file with commands" 
+git push
+
