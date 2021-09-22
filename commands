@@ -1,0 +1,11 @@
+git clone https://github.com/soliswinters/GitHub-Collaboration-Practice.git
+cd GitHub-Collaboration-Practice
+git checkout -b solis_branch
+vim Names
+git add Names
+git commit -m "I added my degree program and keywords"
+git push
+vim commands
+git add commands
+git commit -m "I created a new text file with all the commands I ran/will run"
+git push
